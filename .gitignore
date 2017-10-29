@@ -1,0 +1,18 @@
+#### Node
+.grunt
+node_modules/
+
+#### GitBook
+_book
+*.epub
+*.mobi
+*.pdf
+
+#### JetBrains
+.idea/
+
+#### vscode
+.vscode/
+
+#### emacs / vim
+*~
