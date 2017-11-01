@@ -1,5 +1,7 @@
 # Summary
 
+[introduction](README.md)
+
 ### HTML 基础概念
 * [语义化 (Semantic) HTML](semantic-html.md)
 * [AMP HTML](amp-html.md)
@@ -23,3 +25,4 @@
 
 ### 前端现代框架
 * [Virtual DOM](virtual-dom.md)
+* [事件代理](event-delegation.md)
