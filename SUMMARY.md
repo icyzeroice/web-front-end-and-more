@@ -3,6 +3,7 @@
 [introduction](README.md)
 
 ### HTML 基础概念
+* [布局](layout.md)
 * [语义化 (Semantic) HTML](semantic-html.md)
 * [AMP HTML](amp-html.md)
 * [Shadow HTML](shadow-html.md)
@@ -24,5 +25,6 @@
 * [排序 (sort)](sort.md)
 
 ### 前端现代框架
+* [直接操作 DOM](dom.md)
 * [Virtual DOM](virtual-dom.md)
 * [事件代理](event-delegation.md)
