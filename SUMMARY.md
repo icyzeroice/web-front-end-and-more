@@ -26,7 +26,8 @@
 ### JavaScript 基本数据结构与算法实现
 * [排序 (sort)](sort.md)
 
-### 前端现代框架
+### 前端现代化
 * [直接操作 DOM](dom.md)
 * [Virtual DOM](virtual-dom.md)
 * [事件代理](event-delegation.md)
+* [前端工程化自动化工具](tools.md)
