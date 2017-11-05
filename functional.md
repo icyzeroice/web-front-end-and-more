@@ -1,5 +1,4 @@
-# JavaScript 函数式编程技巧
-### Curry
+# JavaScript 函数式编程技巧### Curry
 
 柯里化是函数式编程中很重要的一个技巧，
 

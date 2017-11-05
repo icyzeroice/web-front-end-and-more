@@ -18,6 +18,10 @@
 * [函数式编程](functional.md)
   * [柯里化 (Curry)](functional.md#Curry)
 * [原型链 (Prototype)](prototype.md)
+* [ES6+ 精炼入门](eslatest.md)
+  * [Promise](eslatest.md#Promise)
+  * [Generator](eslatest.md#Generator)
+  * [async](eslatest.md#async)
 
 ### JavaScript 基本数据结构与算法实现
 * [排序 (sort)](sort.md)
