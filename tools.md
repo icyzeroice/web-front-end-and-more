@@ -18,10 +18,9 @@ webpack 的配置方法[官网](https://webpack.js.org/)上已经说得十分详
 
 简单示例请见：https://github.com/icyzeroice/webpack-demo
 
-### [Gulp](https://gulpjs.com)
+### Gulp
 
-
-
+gulp 官网：https://gulpjs.com
 简单示例请见：https://github.com/icyzeroice/gulp-demo
 
 ### 其他 (暂时仅作列举，未实际使用过)
