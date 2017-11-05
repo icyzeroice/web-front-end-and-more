@@ -1,6 +1,6 @@
 # 前端工程化自动化工具
 
-# Webpack
+### Webpack
 
 首先要说明的一点是，webpack 不是一个完整的前端构建工具，这一点 [webpack 官网](https://webpack.js.org/)
 
@@ -18,13 +18,13 @@ webpack 的配置方法[官网](https://webpack.js.org/)上已经说得十分详
 
 简单示例请见：https://github.com/icyzeroice/webpack-demo
 
-# Gulp
+### Gulp
 
 gulp 官网：https://gulpjs.com
 简单示例请见：https://github.com/icyzeroice/gulp-demo
 
-# 其他 (暂时仅作列举，未实际使用过)
+### 其他 (暂时仅作列举，未实际使用过)
 
-### Grunt
+##### Grunt
 
-### Browserify
+##### Browserify
