@@ -1,8 +1,10 @@
 # 前端工程化自动化工具
 
-### [Webpack](https://webpack.js.org/)
+### Webpack
 
-首先要说明的一点是，webpack 不是一个完整的前端构建工具，这一点 webpack 官网一开始就有明：
+首先要说明的一点是，webpack 不是一个完整的前端构建工具，这一点 [webpack 官网](https://webpack.js.org/)
+
+一开始就有明：
 
 > At its core, webpack is a module bundler for modern JavaScript applications. When webpack processes your application, it recursively builds a dependency graph that includes every module your application needs, then packages all of those modules into one or more bundles.
 
@@ -12,7 +14,7 @@
 
 只不过 webpack 有自己的一套插件系统，也有诸如热加载、清理文件夹等功能，所以有时候只用 webpack 就够了。然而，webpack 是基于配置的工具，所有功能几乎都要用配置来启用，逻辑性低，容易产生不知所云的错误。
 
-webpack 的配置方法官网上已经说得十分详尽了，这里我也写了一个简单的 demo，分开了生产环境（production）和开发环境（development）。
+webpack 的配置方法[官网](https://webpack.js.org/)上已经说得十分详尽了，这里我也写了一个简单的 demo，分开了生产环境（production）和开发环境（development）。
 
 简单示例请见：https://github.com/icyzeroice/webpack-demo
 
