@@ -31,5 +31,5 @@
 * [Virtual DOM](virtual-dom.md)
 * [事件代理](event-delegation.md)
 * [前端工程化自动化工具](tools.md)
-  * [Webpack](tools.md:Webpack)
-  * [Gulp](tools.md:Gulp)
+  * [Webpack](tools.md#Webpack)
+  * [Gulp](tools.md#Gulp)
