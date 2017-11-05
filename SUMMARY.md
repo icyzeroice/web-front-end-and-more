@@ -16,7 +16,7 @@
 * [常用易混淆函数](function.md)
 * [闭包 (Closure)](closure.md)
 * [函数式编程](functional.md)
-  * [柯里化 (Curry)](functional.md#Curry)
+  * [柯里化 (Curry)](functional.md###Curry)
 * [原型链 (Prototype)](prototype.md)
 
 ### JavaScript 基本数据结构与算法实现
@@ -27,5 +27,5 @@
 * [Virtual DOM](virtual-dom.md)
 * [事件代理](event-delegation.md)
 * [前端工程化自动化工具](tools.md)
-  * [Webpack](tools.md#Webpack)
-  * [Gulp](tools.md#Gulp)
+  * [Webpack](tools.md###Webpack)
+  * [Gulp](tools.md###Gulp)
