@@ -1,7 +1,8 @@
 # Summary
 
-[introduction](README.md)
-[前端知识图谱](knowledge-graph.md)
+* [introduction](README.md)
+* [前端推荐资源汇总](recommend.md)
+* [前端知识图谱](knowledge-graph.md)
 
 ### HTML 基础概念
 * [布局](layout.md)
