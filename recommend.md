@@ -33,6 +33,8 @@
 
 [W3C](https://www.w3.org) (可以看新闻，逃 ...)
 
+[CSS TRICKS](https://css-tricks.com/almanac/)
+
 * HTML 和 CSS 迅速过一遍，主要先理解概念和他们的在前端的作用，然后上面这两本书先选一本看就行了（这两本书当前最新版本主要讲 ES5 语法，更贴近 JS 语言本质）。接着就需要一些练习，在练习中翻看 HTML 和 CSS 手册积累这些标签、属性和实践经验。重点先放在学习 JavaScript 这门语言上，然后弄清 **浏览器对象模型** (DOM < BOM)。
 
 
