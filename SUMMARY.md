@@ -1,36 +1,36 @@
 # Summary
 
 * [introduction](README.md)
-* [前端推荐资源汇总](recommend.md)
 * [前端知识图谱](knowledge-graph.md)
+* [前端推荐资源](recommend.md)
 
-### HTML 基础概念
-* [布局](layout.md)
-* [语义化 (Semantic) HTML](semantic-html.md)
-* [AMP HTML](amp-html.md)
-* [Shadow HTML](shadow-html.md)
-
-### CSS 基础概念
-* [CSS 正交](css-cross.md)  
+### HTML + CSS 基础概念
+* [布局](html+css/layout.md)
+* [语义化 HTML](html+css/semantic-html.md)
+* [AMP HTML](html+css/amp-html.md)
+* [Shadow HTML](html+css/shadow-html.md)
+* [CSS 正交](html+css/css-cross.md)
 
 ### JavaScript 基础概念
-* [常用易混淆函数](function.md)
-* [闭包 (Closure)](closure.md)
-* [函数式编程](functional.md)
-  * [柯里化 (Curry)](functional.md#Curry)
-* [原型链 (Prototype)](prototype.md)
-* [ES6+ 精炼入门](eslatest.md)
-  * [Promise](eslatest.md#Promise)
-  * [Generator](eslatest.md#Generator)
-  * [async](eslatest.md#async)
-
-### JavaScript 基本数据结构与算法实现
-* [排序 (sort)](sort.md)
+* [常用易混淆函数](js/function.md)
+* [闭包](js/closure.md)
+* [函数式编程](js/functional.md)
+  * [柯里化](js/functional.md#Curry)
+* [原型链](js/prototype.md)
+* [ES6+ 入门](js/eslatest.md)
+  * [Promise](js/eslatest.md#Promise)
+  * [Generator](js/eslatest.md#Generator)
+  * [async](js/eslatest.md#async)
+* [基本数据结构与算法实现](js/algorithm.md)
+  * [排序](js/sort.md)
 
 ### 前端现代化
-* [直接操作 DOM](dom.md)
-* [Virtual DOM](virtual-dom.md)
-* [事件代理](event-delegation.md)
-* [前端工程化自动化工具](tools.md)
-  * [Webpack](tools.md#Webpack)
-  * [Gulp](tools.md#Gulp)
+* [直接操作 DOM](modernize/dom.md)
+* [Virtual DOM](modernize/virtual-dom.md)
+* [事件代理](modernize/vent-delegation.md)
+* [前端工程化自动化工具](modernize/tools.md)
+  * [Webpack](modernize/tools.md#Webpack)
+  * [Gulp](modernize/tools.md#Gulp)
+
+### 其他
+* [XML](others/xml.md)
