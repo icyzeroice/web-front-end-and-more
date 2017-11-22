@@ -29,6 +29,15 @@ encoding --+> 文字编码格式的声明
         CDATA 仍然是 XML 文档的一部分，会被当做数据传输，仍然属于要传输数据的一部分
         而注释只是书写时给开发者看的，可以过滤掉
 
+
+    附 -> 预定义实体引用，防止直接使用一些特殊符号会使解析器解析错误：
+
+        &lt;      <    less than
+        &gt;      >    greater than
+        &amp;     &    ampersand
+        &apos;    '    apostrophe
+        &quot;    "    quotation mark
+
 ]]>
 <demoRoot>
   <!--
