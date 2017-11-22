@@ -148,7 +148,7 @@ xmlDocument.getElementsByTagName('year')[0].innerText; // 2017
 同时，XML DOM 也有诸如 `getAttribute`、`childNodes` 等等 HTML DOM 的方法和属性，
 也有诸如 `getAttributeNS`、`CDATASection`[^2] 等 XML DOM 自己特有的方法和属性。
 
-更多方法见：https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+更多方法见：[DOM-MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 
 
 [^1]: http://w3c.github.io/webcomponents/spec/custom/ "Custom Elements"
