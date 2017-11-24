@@ -19,4 +19,4 @@ HTML 中的每一个元素都有 `display` 属性，这个属性用于定义建�
 | inline-block |  |  |
 | flex |  |  |
 
-这些是最基本的几个属性值，还有更多设置，详见 [display - MDN]((https://developer.mozilla.org/zh-CN/docs/Web/CSS/display))。
+这些是最基本的几个属性值，还有更多设置，详见 [display - MDN]((https://developer.mozilla.org/zh-CN/docs/Web/CSS/display)。

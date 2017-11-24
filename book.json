@@ -2,6 +2,6 @@
   "title": "Web Front End and More",
   "author": "Ice Zero",
   "plugins": [
-  
+    "mermaid"
   ]
 }
