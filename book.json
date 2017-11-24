@@ -2,6 +2,12 @@
   "title": "Web Front End and More",
   "author": "Ice Zero",
   "plugins": [
+    "baidu",
     "mermaid"
-  ]
+  ],
+  "pluginsConfig": {
+    "baidu": {
+      "token": "0ddc2686874845c1dbe5b935a3410dc6"
+    }
+  }
 }
