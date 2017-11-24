@@ -3,11 +3,3 @@
 ### Node.js Core API ———— Events
 
 首先我们要弄清楚 Node.js 的核心类库之一————Events
-
-{% mermaid %}
-graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
-{% endmermaid %}
