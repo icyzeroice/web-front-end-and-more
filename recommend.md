@@ -75,7 +75,6 @@
 - [《现代前端技术揭秘》](https://book.douban.com/subject/27021790/)
 
 
-
 ### 现代前端框架
 
 ##### UI 框架
@@ -83,7 +82,6 @@
 - [Materialize](http://materializecss.com/)
 
 - [Bootstrap](https://v4.bootcss.com/)
-
 
 ##### MV* 框架
 
@@ -102,7 +100,7 @@
 
 - [Cordova](https://cordova.apache.org/)
 
-- [React Native](https://facebook.github.io/react-native/)
+- [React Native](https://facebook.github.io/react-native/) --- MNV* 型框架
 
 - [ionic](https://ionicframework.com/)
 
@@ -192,3 +190,7 @@
 ### 前端知识图谱个人总结
 
 - [前端知识图谱](./knowledge-graph.md)
+
+### 其它
+
+- [前端导航 - 腾讯](http://www.alloyteam.com/nav/)
