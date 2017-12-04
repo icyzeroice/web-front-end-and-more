@@ -111,7 +111,11 @@
 
 ##### 其他
 
-- [TypeScript](https://www.tslang.cn/) --- JavaScript 的强类型解决方案，可以无视
+- [Polymer](https://www.polymer-project.org/) --- 一种 Web Components 实现的 Polyfill
+
+- [TypeScript](https://www.tslang.cn/) --- JavaScript 的强类型解决方案，微软出品，必属精品系列
+
+- [BuckleScript](https://bucklescript.github,io) --- 一种更安全的 JavaScript 编译器
 
 
 ### Node.js
@@ -154,7 +158,9 @@
 
 ### Web AI 库
 
-- [deeplearn.js](https://deeplearnjs.org/)
+- [tracking.js](https://trackingjs.com/)
+, [regl-cnn](https://erkaman.github.io/regl-cnn/src/demo.html)
+, [deeplearn.js](https://deeplearnjs.org/)
 , [Synaptic](http://caza.la/synaptic/#/)
 , [ml.js](https://github.com/mljs/ml)
 , [natural](https://github.com/NaturalNode/natural)

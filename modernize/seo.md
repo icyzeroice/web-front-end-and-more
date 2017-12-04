@@ -1,0 +1,5 @@
+# SEO
+
+### robots.txt
+
+### sitemap
