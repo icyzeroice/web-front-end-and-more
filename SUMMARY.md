@@ -1,16 +1,16 @@
 # Summary
 
 * [introduction](README.md)
-* [前端知识图谱](knowledge-graph.md)
+* [前端知识图谱](knowledge_graph.md)
 * [前端推荐资源](recommend.md)
 
 ### HTML & CSS 基础概念
 
-* [语义化 HTML](html+css/semantic-html.md)
+* [语义化 HTML](html+css/semantic_html.md)
 
 <!-- * [AMP HTML](html+css/amp-html.md)
 * [Shadow HTML](html+css/shadow-html.md) -->
-* [CSS 正交](html+css/css-cross.md)
+* [CSS 正交](html+css/css_cross.md)
 * [布局](html+css/layout.md)
 
 ### JavaScript 基础概念
@@ -27,6 +27,7 @@
   <!-- * [Generator](js/generator.md)
   * [async](js/async.md) -->
 * [基本数据结构与算法实现](js/algorithm.md)
+* [常用设计模式](js/design_patterns.md)
 
 ### 前端现代化
 
