@@ -2,7 +2,10 @@
   "title": "Web Front End and More",
   "author": "Ice Zero",
   "plugins": [
-    "3-ba"
+    "3-ba",
+    "katex",
+    "mermaid-gb3",
+    "new-flowchart"
   ],
   "pluginsConfig": {
     "3-ba": {

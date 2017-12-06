@@ -7,7 +7,6 @@
 ### HTML & CSS 基础概念
 
 * [语义化 HTML](html+css/semantic_html.md)
-
 <!-- * [AMP HTML](html+css/amp-html.md)
 * [Shadow HTML](html+css/shadow-html.md) -->
 * [CSS 正交](html+css/css_cross.md)
@@ -19,9 +18,7 @@
 * [闭包](js/closure.md)
 * [函数式编程](js/functional.md)
   * [柯里化](js/curry.md)
-
 <!-- * [原型链](js/prototype.md) -->
-
 * [ES6+ 入门](js/eslatest.md)
   * [Promise](js/promise.md)
   <!-- * [Generator](js/generator.md)
