@@ -21,3 +21,83 @@ graph TB;
   OST --> NB(B);
 ```
 
+```js
+class IcyObserver {
+  constructor() {
+
+    // event line
+    this._store = {};
+  }
+
+  subscribe(event, callback) {
+
+    // 存放订阅了相同消息的操作的回调函数
+    if (this._store[event] instanceof Array) {
+      this._store[event].push(callback);
+    } else if (!this._store[event]) {
+      this._store[event] = [];
+      this._store[event].push(callback);
+    }
+  }
+
+  publish(event, ...args) {
+    // 发布一次消息
+    try {
+      for (let eachCall of this._store[event]) {
+
+        // 遍历消息队列并执行发布消息的对应的已存回调函数
+        eachCall(...args);
+      }
+    } catch (err) {
+      console.error(`there is no ${err}`);
+      return null;
+    }
+  }
+
+  cancel(event) {
+    
+    // 删除某个消息
+    try {
+      delete this._store[target];
+    } catch (err) {
+      console.error(`there is no ${event} in store`);
+    }
+  }
+}
+
+
+// ------ TEST ------ //
+let icy = new IcyObserver();
+
+{
+  // subscribe 1
+  let b = 'b';
+  icy.subscribe('right', (e) => {
+    console.log(b);  // b
+    b = e;
+    console.log(b);  // c
+  });
+  icy.list();
+}
+
+{
+  // subscribe 2
+  let a = 'a';
+  icy.subscribe('right', () => {
+    console.log(a);  // a
+  });
+  icy.list();
+}
+
+{
+  // publish
+  icy.publish('right', 'c');
+}
+
+{
+  // cancel
+  icy.cancel('right');
+  icy.publish('right'); // ReferenceError
+}
+// ------ TEST END ------ //
+```
