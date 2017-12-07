@@ -16,15 +16,15 @@
 
 * [常用易混淆函数](js/function.md)
 * [闭包](js/closure.md)
-* [函数式编程](js/functional.md)
-  * [柯里化](js/curry.md)
-<!-- * [原型链](js/prototype.md) -->
 * [ES6+ 入门](js/eslatest.md)
   * [Promise](js/promise.md)
-  <!-- * [Generator](js/generator.md)
-  * [async](js/async.md) -->
 * [基本数据结构与算法实现](js/algorithm.md)
 * [常用设计模式](js/design_patterns.md)
+* [常用编程范式](js/paradigm.md)
+  * [函数式编程](js/functional.md)
+  * [响应式编程](js/rp.md)
+<!-- * [原型链](js/prototype.md) -->
+
 
 ### 前端现代化
 
