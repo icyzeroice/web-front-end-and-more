@@ -14,6 +14,7 @@
 
 ### JavaScript 基础概念
 
+* [基本类型](type.md)
 * [常用易混淆函数](js/function.md)
 * [闭包](js/closure.md)
 * [ES6+ 入门](js/eslatest.md)
