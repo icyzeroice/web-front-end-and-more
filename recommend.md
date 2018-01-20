@@ -143,17 +143,14 @@
 ##### 图像处理库
 
 - [CamanJs](http://camanjs.com/)
-
-* 不再维护
-
-  - [glfx.js](http://evanw.github.io/glfx.js/)
-  , [AlloyPhoto](http://alloyteam.github.io/AlloyPhoto/)
+- [glfx.js](http://evanw.github.io/glfx.js/)
+，[AlloyPhoto](http://alloyteam.github.io/AlloyPhoto/)（不再维护）
 
 ##### VR、AR 库推荐
 
 - [AR.js](https://github.com/jeromeetienne/AR.js)
-, [Aframe](https://github.com/aframevr/aframe)
-, [react-vr](https://github.com/facebook/react-vr)
+，[Aframe](https://github.com/aframevr/aframe)
+， [react-vr](https://github.com/facebook/react-vr)
 
 
 ### Web AI 库
@@ -165,16 +162,14 @@
 , [ml.js](https://github.com/mljs/ml)
 , [natural](https://github.com/NaturalNode/natural)
 
-* 不再维护
-
-  - [brain.js](https://github.com/harthur/brain)
-  , [convnet.js](https://github.com/karpathy/convnetjs)
+- [brain.js](https://github.com/harthur/brain)
+，[convnet.js](https://github.com/karpathy/convnetjs)（不再维护）
 
 ### 前端数据可视化
 
 * [Echarts](http://echarts.baidu.com/)
-, [D3](https://www.google.com.hk/search?q=d3)
-, [Antv](https://antv.alipay.com/index.html)
+，[D3](https://www.google.com.hk/search?q=d3)
+，[Antv](https://antv.alipay.com/index.html)
 
 ### 溯源推荐
 
