@@ -50,7 +50,7 @@
 
 - [CSS TRICKS](https://css-tricks.com/almanac/)
 
-- [Can I use ...](https://caniuse.com/#home)（查看浏览器兼容性的网站）
+- [Can I use ...](https://caniuse.com/#home)（查看浏览器特性的网站）
 
 
 ### 进阶推荐
