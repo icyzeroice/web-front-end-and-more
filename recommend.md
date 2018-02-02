@@ -144,10 +144,11 @@
 | [glfx.js](http://evanw.github.io/glfx.js/) | 不再维护 |
 | [AlloyPhoto](http://alloyteam.github.io/AlloyPhoto/) | 不再维护 |
 
-| VR、AR 库推荐 | |
+| 3D、VR、AR 库推荐 | |
 |:--:| |
+| [three]() | |
 | [AR.js](https://github.com/jeromeetienne/AR.js) | |
-| [Aframe](https://github.com/aframevr/aframe) | 火狐社区出品，必属精品 |
+| [Aframe](https://github.com/aframevr/aframe) | Mozilla 社区出品，必属精品 |
 | [react-vr](https://github.com/facebook/react-vr) | |
 
 
