@@ -146,7 +146,7 @@
 
 | 3D、VR、AR 库推荐 | |
 |:--:| |
-| [three]() | |
+| [three](https://threejs.org/) | |
 | [AR.js](https://github.com/jeromeetienne/AR.js) | |
 | [Aframe](https://github.com/aframevr/aframe) | Mozilla 社区出品，必属精品 |
 | [react-vr](https://github.com/facebook/react-vr) | |
