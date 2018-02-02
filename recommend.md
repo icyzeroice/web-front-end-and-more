@@ -26,13 +26,9 @@
 
 - [JQuery 入门教程](http://www.runoob.com/jquery/jquery-tutorial.html)
 
-- [《JavaScript 高级程序设计》](https://book.douban.com/subject/10546125/)
+- [《JavaScript 高级程序设计》](https://book.douban.com/subject/10546125/)（红宝书）[PDF](http://note.youdao.com/noteshare?id=7ce6a29ea631d4ec477c64ba1b0ddcbe)
 
-  - [PDF](http://note.youdao.com/noteshare?id=7ce6a29ea631d4ec477c64ba1b0ddcbe)
-
-- [《JavaScript 权威指南》](https://book.douban.com/subject/10549733/)
-
-  - [PDF](http://note.youdao.com/noteshare?id=4a0fe0dd3a60161f9f2da8edbe00c4df)
+- [《JavaScript 权威指南》](https://book.douban.com/subject/10549733/)（犀牛书）[PDF](http://note.youdao.com/noteshare?id=4a0fe0dd3a60161f9f2da8edbe00c4df)
 
 
 * HTML 和 CSS 迅速过一遍，主要先理解概念和他们的在前端的作用
@@ -50,7 +46,7 @@
 
 - [CSS TRICKS](https://css-tricks.com/almanac/)
 
-- [Can I use ...](https://caniuse.com/#home)（查看浏览器特性的网站）
+- [Can I use ...](https://caniuse.com/#home)（查看浏览器 **特性** 的网站）
 
 
 ### 进阶推荐
@@ -89,11 +85,13 @@
 
 - [Angular](https://angular.io)
 
-- [React](https://reactjs.org/) --- 状态管理机制较弱，一般配合 [React Router]() 和 [Redux]()
-  - [create-react-app](https://github.com/facebookincubator/create-react-app)
+- [React](https://reactjs.org/) 
+  - 状态管理机制较弱，一般配合 [React Router]() 和 [Redux]()
+  - 开箱即用 [create-react-app](https://github.com/facebookincubator/create-react-app)
 
-- [Vue](https://cn.vuejs.org/index.html) --- 同上配合 [Vue Router]() 和 [Vuex]()
-  - [vue-cli](https://github.com/vuejs/vue-cli)
+- [Vue](https://cn.vuejs.org/index.html) 
+  - 同上配合 [Vue Router]() 和 [Vuex]()
+  - 开箱即用 [vue-cli](https://github.com/vuejs/vue-cli)
 
 - [Aurelia](http://aurelia.io/)
 
@@ -142,36 +140,39 @@
 
 - [《HTML5 Canvas 核心技术》](https://book.douban.com/subject/24533314/)
 
-##### 图像处理库
+| 图像处理库 | |
+|:--:|:--:|
+| [CamanJs](http://camanjs.com/) | |
+| [glfx.js](http://evanw.github.io/glfx.js/) | 不再维护 |
+| [AlloyPhoto](http://alloyteam.github.io/AlloyPhoto/) | 不再维护 |
 
-- [CamanJs](http://camanjs.com/)
-- [glfx.js](http://evanw.github.io/glfx.js/)
-，[AlloyPhoto](http://alloyteam.github.io/AlloyPhoto/)（不再维护）
-
-##### VR、AR 库推荐
-
-- [AR.js](https://github.com/jeromeetienne/AR.js)
-，[Aframe](https://github.com/aframevr/aframe)
-， [react-vr](https://github.com/facebook/react-vr)
+| VR、AR 库推荐 | |
+|:--:| |
+| [AR.js](https://github.com/jeromeetienne/AR.js) | |
+| [Aframe](https://github.com/aframevr/aframe) | 火狐社区出品，必属精品 |
+| [react-vr](https://github.com/facebook/react-vr) | |
 
 
 ### Web AI 库
 
-- [tracking.js](https://trackingjs.com/)
-, [regl-cnn](https://erkaman.github.io/regl-cnn/src/demo.html)
-, [deeplearn.js](https://deeplearnjs.org/)
-, [Synaptic](http://caza.la/synaptic/#/)
-, [ml.js](https://github.com/mljs/ml)
-, [natural](https://github.com/NaturalNode/natural)
-
-- [brain.js](https://github.com/harthur/brain)
-，[convnet.js](https://github.com/karpathy/convnetjs)（不再维护）
+|  | |
+|--| |
+| [tracking.js](https://trackingjs.com/) | |
+| [regl-cnn](https://erkaman.github.io/regl-cnn/src/demo.html) | |
+| [deeplearn.js](https://deeplearnjs.org/) | |
+| [Synaptic](http://caza.la/synaptic/#/) | |
+| [ml.js](https://github.com/mljs/ml) | |
+| [natural](https://github.com/NaturalNode/natural) | |
+| [brain.js](https://github.com/harthur/brain) | 不再维护 |
+| [convnet.js](https://github.com/karpathy/convnetjs) | 不再维护 |
 
 ### 前端数据可视化
 
-* [Echarts](http://echarts.baidu.com/)
-，[D3](https://www.google.com.hk/search?q=d3)
-，[Antv](https://antv.alipay.com/index.html)
+|  |  |
+|--|--|
+| [Echarts](http://echarts.baidu.com/) | 百度出品 |
+| [D3](https://www.google.com.hk/search?q=d3) | |
+| [Antv](https://antv.alipay.com/index.html) | |
 
 ### 溯源推荐
 
@@ -179,9 +180,11 @@
 
 - [《CSS 权威指南》](https://book.douban.com/subject/2308234/)
 
-- [《你不知道的 JavaScript (上卷)》](https://book.douban.com/subject/26351021/)
+- [《你不知道的 JavaScript（上卷）》](https://book.douban.com/subject/26351021/)
 
-- [《你不知道的 JavaScript (中卷)》](https://book.douban.com/subject/26854244/)
+- [《你不知道的 JavaScript（中卷）》](https://book.douban.com/subject/26854244/)
+
+- [《你不知道的 JavaScript（下卷）》](https://book.douban.com/subject/27620408/)
 
 - [《HTTP 权威指南》](https://book.douban.com/subject/10746113/)
 
