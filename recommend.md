@@ -46,6 +46,13 @@
 
 - [Can I use ...](https://caniuse.com/#home)（查看浏览器 **特性** 的网站）
 
+##### 代码风格参考
+
+- [Google - HTML/JavaScript](https://iischajn.github.io/trans/htmlcss-guide/#HTML_Formatting_Rules)
+- [Airbnb - CSS](https://github.com/airbnb/css)
+- [Airbnb - JavaScript](https://github.com/airbnb/javascript)
+- [Baidu - Style Guide](https://github.com/fex-team/styleguide)
+
 
 ### 进阶推荐
 
