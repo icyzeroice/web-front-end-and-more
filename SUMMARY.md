@@ -1,5 +1,6 @@
 # Summary
 
+* [读我呀](./README.md)
 * [前端知识图谱](knowledge_graph.md)
 * [前端推荐资源](recommend.md)
 
