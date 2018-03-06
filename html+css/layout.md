@@ -1,5 +1,7 @@
 # 布局 (layout)
 
+> 原文：https://www.jianshu.com/p/387d5d41d1cb
+
 ### 文档流 (normal flow)
 
 文档流，即默认布局，将窗体自上而下分成一行行, 并在每行中按从左至右的顺序排放元素。每个非浮动**块级元素**都独占一行, 浮动元素（包括行内元素等）则按规定（如默认的从左到右，或者用 CSS 将**父元素**设置了从右到左或是居中等等）浮动. 若当前行容不下,则另起新行再浮动。
@@ -20,3 +22,4 @@ HTML 中的每一个元素都有 `display` 属性，这个属性用于定义建�
 | flex |  |  |
 
 这些是最基本的几个属性值，还有更多设置，详见 [display - MDN]((https://developer.mozilla.org/zh-CN/docs/Web/CSS/display)。
+
