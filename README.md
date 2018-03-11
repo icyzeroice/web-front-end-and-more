@@ -14,10 +14,9 @@ Bits and pieces of knowledge points about the web front end, and perhaps more th
 
 [https://icyzeroice.gitbooks.io/web-front-end-and-more/](https://icyzeroice.gitbooks.io/web-front-end-and-more/)
 
-
 # Summary
 
-* [introduction](README.md)
+* [读我呀](./README.md)
 * [前端知识图谱](knowledge_graph.md)
 * [前端推荐资源](recommend.md)
 
@@ -31,7 +30,7 @@ Bits and pieces of knowledge points about the web front end, and perhaps more th
 
 ### JavaScript 基础概念
 
-* [基本类型](type.md)
+* [基本类型](js/type.md)
 * [常用易混淆函数](js/function.md)
 * [闭包](js/closure.md)
 * [ES6+ 入门](js/eslatest.md)
