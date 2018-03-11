@@ -34,6 +34,9 @@ typeof NaN    // "number"
 
 010 + '010'   // 8010 // 因为这里 0 开始的数字表示八进制数
 
+NaN == NaN    // false
+NaN === NaN   // false
+
 ```
 
 ### 七种原始数据类型
