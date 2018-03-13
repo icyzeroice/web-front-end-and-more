@@ -7,8 +7,10 @@
 ### HTML & CSS 基础概念
 
 * [语义化 HTML](html+css/semantic_html.md)
+
 <!-- * [AMP HTML](html+css/amp-html.md)
 * [Shadow HTML](html+css/shadow-html.md) -->
+
 * [CSS 正交](html+css/css_cross.md)
 * [布局](html+css/layout.md)
 
@@ -16,7 +18,9 @@
 
 * [基本类型](js/type.md)
 * [常用易混淆函数](js/function.md)
-* [闭包](js/closure.md)
+
+<!-- * [闭包](js/closure.md) -->
+
 * [ES6+ 入门](js/eslatest.md)
   * [Promise](js/promise.md)
 * [基本数据结构与算法实现](js/algorithm.md)
@@ -24,6 +28,7 @@
 * [常用编程范式](js/paradigm.md)
   * [函数式编程](js/functional.md)
   * [响应式编程](js/rp.md)
+
 <!-- * [原型链](js/prototype.md) -->
 
 
@@ -32,6 +37,7 @@
 <!-- * [直接操作 DOM](modernize/dom.md)
 * [Virtual DOM](modernize/virtual-dom.md)
 * [事件代理](modernize/vent-delegation.md) -->
+
 * [前端工程化自动化工具](modernize/tools.md)
   * [Webpack](modernize/tools.md#Webpack)
   * [Gulp](modernize/tools.md#Gulp)
