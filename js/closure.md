@@ -22,13 +22,3 @@
 add(); // i = 1
 add(); // i = 2
 ```
-
-
-### 示例 2
-
-```js
-var array = [];
-function demo() {
-  
-}
-```
