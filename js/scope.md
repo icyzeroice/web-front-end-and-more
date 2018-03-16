@@ -8,14 +8,13 @@
 
 * **全局作用域**
 * **函数作用域**
-* **块级作用域**（很多人认为 JS 没有块级作用域，但其实是存在的！咱之后说明。）
+* **块级作用域**
 
 ##### 全局作用域
 
-**全局作用域**，简而言之就是定义在所有函数外部，可以在程序任意地方访问到其中（全局）量的 **规则**（如浏览器窗体中可以随处访问 `window`；Web Service 或 Web Workers 中可以随处访问 `self`；Node.js 中可以随处访问 `global`）。
+**全局作用域**，简而言之就是定义在所有函数外部，可以在程序任意地方访问到其中（全局）量的 **规则**（如浏览器窗体中可以随处访问 `window`；Web Service 或 Web Workers 中可以随处访问 `self`；Node.js 中可以随处访问 `global`）。在 JS 引擎一进入一段有效的 JS 代码，就会初始化一个全局对象，并使用 `window`/`self`/`global` 指向这个全局对象，这样 **全局作用域** 便是最早出现的。
 
 > 有趣的是 `window = null` 是无效操作，但是记这篇笔记时 `self = null`、`global = null` 是有效的，危险！
-
 
 ##### 函数作用域
 
@@ -28,13 +27,84 @@
 
 这个过程是在编译时完成的，我们可以看到这里已经生成了一个树，而到执行阶段时，遇到 **取值操作** （RHS）时便会在其相应的符号表中进行查询操作，如果查找到了变量，就会将其值返回作为取值操作的结果；如果找不到，就顺着树的结构往上级节点（即，上级嵌套作用域）查询，直到找到这个变量对应的标识符，取得其值；否则，若到了根节点（全局作用域）都无法找到其值，就返回 `ReferenceError` 引用错误。
 
-这时，我们发现自己似乎形成作用域的印象了。是的，**函数作用域** 就是上面所描述这样的 **词法作用域**，它在编译阶段就已经绑定了。
+这时，我们发现自己似乎形成作用域的印象了。是的，**函数作用域** 就是上面所描述这样的 **词法作用域**，它在编译阶段就已经绑定了，不过在编译阶段作用域已经不存在了，取而代之的是一个可以查询的符号表。但是我们在理解代码时，仍然可以将其抽象成作用域来解释代码运行过程。
 
 **动态作用域** 与之相对应，它不是在编译阶段绑定的，而是根据其 **调用** 时所在作用域来绑定当前作用域，与声明函数的位置无关。在 JS 中，只有 **词法作用域**，没有 **动态作用域**，但是 `this` 可以实现类似 **动态作用域** 的效果。这个详见有关 `this` 的笔记。
 
 ##### 块级作用域
 
-**块级作用域** 在 JS 中比较特殊。我们
+**块级作用域** 在 JS 中比较特殊。因为在这里 `if`、`for`、`while` 等这些我们以为会生成自己作用域的代码块，全都没有按我们所想的那样运作，而是和上下文共享同一个作用域，所以很多时候我们不得不用匿名函数去手动生成一个函数作用域来达到我们想要的效果。我相信大家曾经都写过这样的代码：
+
+```js
+var btn = document.getElementsByTagName('button');
+for (var i = 0; i < 10; i++) {
+  btn[i].onclick = function () {
+    console.log(i);
+  }
+}
+
+console.log(i); // 10
+```
+
+`for` 代码块外部访问到了内部声明的变量，而且我们点击页面上这个十个按钮，控制台打印出来的全是 `10`。即并没有生成所谓的　**块级作用域**，`i` 在这十个点击事件的公共作用域内。为了实现我们想用的效果，我们只能使用 **函数作用域** 来模拟：
+
+```js
+var btn = document.getElementsByTagName('button');
+for (var i = 0; i < 10; i++) {
+  (function (i) {
+    btn[i].onclick = function () {
+      console.log(i);
+    }
+  })(i)
+}
+
+console.log(i); // 10
+```
+
+这里我们可以发现，使用了立即执行的匿名函数，我们在每次循环时手动生成了一个 **函数作用域**，并将 `i` 的当前值绑定在相应作用域内，从而实现了点击第 N 个 button 打印 N 的功能。
+
+```js
+try {
+  throw 1;
+} catch(a) {
+
+  var b = 2;
+  console.log(a); // 1
+
+}
+
+console.log(b); // 2
+console.log(a); // ReferenceError
+```
+
+从这个例子中我们可以看到，在 `try/catch` 代码块中的变量 `a` 外部访问不到，而 `b` 却能访问到，也是就是说，这个在 ES3 标准中就有的 **块级作用域**　是相当畸形的……还不如我们使用立刻执行的匿名函数来模拟 **块级作用域**　的效果。
+
+> 不过好在，ES6 标准的到来，引入了 `let`、`const` 两种新的声明方式，以及显式代码块结构 `{ ... }`，使得 **块级作用域** 的标准完善不少。
+
+```js
+let btn = document.getElementsByTagName('button');
+for (let i = 0; i < 10; i++) {
+  btn[i].onclick = function () {
+    console.log(i);
+  }
+}
+console.log(i); // ReferenceError
+```
+现在我们想要的效果终于来了，使用 `let` 声明索引 `i` 后，我们发现每次循环都在 `for` 代码块内生成了新的作用域，这就是 **块级作用域** 了，在外部对 `i` 的取值操作已经变成了 `ReferenceError` 引用错误，也就是说外部作用域没有 `i` 的声明信息。
+
+这样，在除了在函数内部，我们现在又可以在 `{ ... }` 这种结构（包括 `for`、`while`、`if`、`try/catch`、甚至直接使用 `{ ... }` 等代码块结构语法）的内部使用 **块级作用域** 的规则了，这样有助于我们轻松地编写出更安全的高质量代码。
+
+```js
+{
+  let b = 1;
+  var a = 2;
+}
+console.log(a); // 2
+console.log(b); // ReferenceError
+```
+
+我相信你已经明白了上面这个例子输出这样结果的原因。
+
 
 ### 变量提升
 
@@ -92,19 +162,52 @@ a(); // 4
 b(); // ReferenceError
 ```
 
+> 将 **变量提升** 的规则概括成一句话就是：“只有声明本身会被提升，而赋值或其它运行逻辑会留在原地。”
+
 ##### let 和 const 的变量提升
 
 当然，上面所说的变量声明使用的是关键词 `var`，那么 ES6 中的 `let` 和 `const` 是怎么处理变量提升的呢？
 
-？？？？？？？？？？？？？？？？？？？？？
+为了解释 `let` 和 `const` 变量提升，我们还要再引入概念，即声明过程是存在一个 **生命周期** 的——**创建**、**初始化**、**赋值**。
 
-> 将 **变量提升** 的规则概括成一句话就是：“只有声明本身会被提升，而赋值或其它运行逻辑会留在原地。”
+JS 编译阶段遇到 `var` 声明时会创建这个变量并初始化一个值 `undefined`，然后在执行阶段再将后面的赋值操作进行下去。所以会出现下面的情景：
+
+```js
+console.log(a); // undefined
+var a = 1;
+console.log(a); // 1
+```
+
+但是编译阶段遇到 `let` 声明时，JS 引擎只会创建这个变量，但并不会初始化它，而是在之后的执行阶段再初始化、赋值。所以会出现这样的情景：
+
+```js
+console.log(a); // ReferenceError: can't access lexical declaration `a' before initialization
+let a; // 这里初始化成 `undefined`，但是没有赋值操作
+console.log(a); // undefined
+```
+
+```js
+console.log(b); // ReferenceError: b is not defined
+```
+
+```js
+let c = 1; // 这里不仅有初始化，还有赋值
+console.log(c); // 1
+```
+
+对比变量 `a` 和 `b` 的例子（火狐浏览器控制台中报错更详细，可以看到区别，但是 Chrome 不会区别报错），我们可以看到 `let` 在编译阶段创建的变量是有提升的，但是没有初始化，执行时取值操作发现这个变量没有值可以引用，便会报错……而 `const` 的变量提升也是同理了……
+
+至此，我们可以看到，`let` 和 `var` 不仅有作用域上的区别，还有声明生命周期上的区别。
+
 
 ### 参考
 
 \- [《你不知道的 JavaScript （上卷）》](https://book.douban.com/subject/26351021/)
 
-\- [深入浅出ES6（十四）：let 和 const
-](http://www.infoq.com/cn/articles/es6-in-depth-let-and-const/)
+\- [深入浅出ES6（十四）：let 和 const ](http://www.infoq.com/cn/articles/es6-in-depth-let-and-const/)
 
-\- [知乎专栏 - 认识 V8 引擎](https://zhuanlan.zhihu.com/p/27628685)
+\- [认识 V8 引擎](https://zhuanlan.zhihu.com/p/27628685)
+
+\- [我用了两个月的时间才理解 let](https://zhuanlan.zhihu.com/p/28140450)
+
+\- [JavaScript variables lifecycle: why let is not hoisted](https://dmitripavlutin.com/variables-lifecycle-and-why-let-is-not-hoisted/)
