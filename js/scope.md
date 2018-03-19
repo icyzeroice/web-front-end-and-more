@@ -14,7 +14,7 @@
 
 **全局作用域**，简而言之就是定义在所有函数外部，可以在程序任意地方访问到其中（全局）量的 **规则**（如浏览器窗体中可以随处访问 `window`；Web Service 或 Web Workers 中可以随处访问 `self`；Node.js 中可以随处访问 `global`）。在 JS 引擎一进入一段有效的 JS 代码，就会初始化一个全局对象，并使用 `window`/`self`/`global` 指向这个全局对象，这样 **全局作用域** 便是最早出现的。
 
-> 有趣的是 `window = null` 是无效操作，但是记这篇笔记时 `self = null`、`global = null` 是有效的，危险！
+> 有趣的是 `window = null` 是无效操作，也就是说 `window` 是只读的，有点像 ES5 的 `Infinity` 和 `NaN` 是只读的，不可修改（ES3 中可以修改），但是记这篇笔记时 `self = null`、`global = null` 是有效的，危险！
 
 ##### 函数作用域
 
