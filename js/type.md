@@ -1,6 +1,6 @@
 # 类型
 
-![图截自《JavaScript 语言精髓与编程实践》，侵删](../img/jstypes.png)
+![图截自《JavaScript 语言精髓与编程实践》，侵删](../img/js-types.png)
 
 ### 动态类型转换
 
@@ -10,6 +10,9 @@
 -''           // -0
 -+0           // -0
 +-0           // -0
+
+-0 === 0      // true
+1 / -0 == 1 / 0 // false  -Infinity != Infinity
 
 1 + ''        // "1"
 1 + +''       // 1
@@ -36,6 +39,7 @@ typeof NaN    // "number"
 
 NaN == NaN    // false
 NaN === NaN   // false
+NaN != NaN    // true
 
 ```
 
@@ -49,7 +53,13 @@ NaN === NaN   // false
 
 ##### `number`
 
+使用二进制 64 位浮点数进行保存，因为不支持十进制浮点数，所以 `.3 - .2 != .1`
+
 ##### `string`
+
+immutable，不可变
+
+所有字符串方法都是返回新的字符串，原字符串不变。你可以当做只读数组。
 
 ##### `object`
 
@@ -88,6 +98,14 @@ false === 0 // false
 
 [更多引用类型](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects)
 
+### 只读
+
+`window`，`NaN`，`Infinity`，`undefined`
+
+（注意 `null` 是值，不是变量，不能进行 LHS 操作，`undefined` 既是值又是全局只读变量）
+
 ### Reference
+
+《JavaScript 权威指南（第6版）》
 
 https://segmentfault.com/q/1010000007552319
