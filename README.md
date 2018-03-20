@@ -14,7 +14,7 @@ Bits and pieces of knowledge points about the web front end, and perhaps more th
 
 [https://icyzeroice.gitbooks.io/web-front-end-and-more/](https://icyzeroice.gitbooks.io/web-front-end-and-more/)
 
-以下目录仅为提醒自己补坑用……不一定现在写了内容，但是我迟早会补上的！
+以下目录仅为提醒自己填坑用……不一定现在写了内容，但是我迟早会补上的，嗯！
 
 # Summary
 
@@ -54,6 +54,7 @@ Bits and pieces of knowledge points about the web front end, and perhaps more th
 * [双向绑定](modernize/data-bind.md)
 * [Virtual DOM](modernize/virtual-dom.md)
 * [事件代理](modernize/vent-delegation.md)
+* [跨域解决方案](modernize/cross-domain.md)
 * [前端工程化自动化工具](modernize/tools.md)
   * [Webpack](modernize/tools.md#Webpack)
   * [Gulp](modernize/tools.md#Gulp)
@@ -65,5 +66,6 @@ Bits and pieces of knowledge points about the web front end, and perhaps more th
 
 * [XML](others/xml.md)
 * [HTTP](others/http.md)
+* [前端持久化技术](others/cache.md)
 * [浏览器](others/browser.md)
 * [面试题](others/interview.md)
