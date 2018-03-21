@@ -14,20 +14,20 @@ Bits and pieces of knowledge points about the web front end, and perhaps more th
 
 [https://icyzeroice.gitbooks.io/web-front-end-and-more/](https://icyzeroice.gitbooks.io/web-front-end-and-more/)
 
-以下目录仅为提醒自己填坑用……不一定现在写了内容，但是我迟早会补上的，嗯！
+**以下目录仅为提醒自己填坑用……不一定现在写了内容，但是我迟早会补上的，嗯！（真的？）**
 
 # Summary
 
-* [读我呀](./README.md)
-* [前端知识图谱](knowledge-graph.md)
-* [前端推荐资源](recommend.md)
+* [读我呀](docs/README.md)
+* [前端知识图谱](docs/knowledge-graph.md)
+* [前端推荐资源](docs/recommend.md)
 
 ### HTML & CSS 基础概念
 
 * [语义化 HTML](html+css/semantic-html.md)
 * [AMP HTML](html+css/amp-html.md)
 * [Shadow HTML](html+css/shadow-html.md)
-* [CSS 的正交性](html+css/css-cross.md)
+* [CSS 的正交性](html+css/cross-css.md)
 * [布局](html+css/layout.md)
 
 ### JavaScript 基础概念
