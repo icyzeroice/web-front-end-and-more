@@ -41,6 +41,10 @@ NaN == NaN    // false
 NaN === NaN   // false
 NaN != NaN    // true
 
+// 特例
+typeof null   // "object"
+typeof document.all // "undefined"
+
 ```
 
 ### 七种原始数据类型
