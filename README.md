@@ -14,6 +14,8 @@ Bits and pieces of knowledge points about the web front end, and perhaps more th
 
 [https://icyzeroice.gitbooks.io/web-front-end-and-more/](https://icyzeroice.gitbooks.io/web-front-end-and-more/)
 
+---
+
 **以下目录仅为提醒自己填坑用……不一定现在写了内容，但是我迟早会补上的，嗯！（真的？）**
 
 # Summary
@@ -40,13 +42,13 @@ Bits and pieces of knowledge points about the web front end, and perhaps more th
 * [原型链](js/prototype.md)
 * [计时器](js/timer.md)
 * [ES6+ 入门](js/eslatest.md)
-  * [Promise](js/promise.md)
-  * [Generator](js/generator.md)
-  * [Async](js/async.md)
+  * [Promise](js/eslatest.md#promise)
+  * [Generator](js/eslatest.md#generator)
+  * [Async](js/eslatest.md#async)
 * [常用设计模式](js/design-patterns.md)
 * [常用编程范式](js/paradigm.md)
-  * [函数式编程](js/functional.md)
-  * [响应式编程](js/rp.md)
+  * [函数式编程](js/paradigm.md#函数式编程)
+  * [响应式编程](js/paradigm.md#响应式编程)
 
 ### 前端现代化
 
@@ -56,8 +58,8 @@ Bits and pieces of knowledge points about the web front end, and perhaps more th
 * [事件代理](modernize/vent-delegation.md)
 * [跨域解决方案](modernize/cross-domain.md)
 * [前端工程化自动化工具](modernize/tools.md)
-  * [Webpack](modernize/tools.md#Webpack)
-  * [Gulp](modernize/tools.md#Gulp)
+  * [Webpack](modernize/tools.md#webpack)
+  * [Gulp](modernize/tools.md#gulp)
 * [koa](modernize/koa.md)
 * [RESTful API](modernize/restful.md)
 * [SEO](modernize/seo.md)
