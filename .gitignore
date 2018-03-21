@@ -3,16 +3,16 @@
 package-lock.json
 
 #### GitBook
-_book
+/_book
 *.epub
 *.mobi
 *.pdf
 
 #### JetBrains
-.idea/
+/.idea
 
 #### vscode
-.vscode/
+/.vscode
 
 #### emacs / vim
 *~

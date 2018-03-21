@@ -40,7 +40,7 @@
 </html>
 ```
 
-##### 我的解答
+这是要考 sizzle 引擎吗？反正我是这么想的：
 
 ```js
 var cssSelectorStr, tempNode = [];
@@ -60,4 +60,42 @@ for (var curNode = arguments[0]; curNode !== document; curNode = curNode.parentN
 tempNode = tempNode.toString().replace(/\,/g, ' ');
 
 return tempNode;
+```
+
+### 题目二（函数式编程）
+
+> 曾遇到过一个面试题，大概是这样的，已知一个函数 `function func(a, b, c, d) {}` 写一个函数 `curry`，可以做到 `var createFunc = curry(func)`，然后以 `createFunc(a)(b)(c)(d)` 形式调用。
+
+我这里用递归写了个简陋的……不知道有没有更好的方法……
+
+
+
+```js
+// TODO: what if the number of parameters is unstable?
+function normal2curry(callback) {
+
+  let argsArray = [];
+  let funcLen = callback.length;
+
+  return function circle(...rest) {
+    
+    argsArray = argsArray.concat(rest);
+
+    if (argsArray.length === funcLen) {
+      callback(...argsArray);
+    } else {
+      return circle;
+    }
+
+  }
+}
+
+function test1(a, b, c, d) {
+  console.log(a, b , c, d);
+  console.log(a + b + c + d);
+}
+
+let test2 = normal2curry(test1);
+test1(1, 2, 3, 4);
+test2(1)(2)(3)(4);
 ```

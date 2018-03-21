@@ -1,6 +1,6 @@
 # Summary
 
-* [读我呀](docs/README.md)
+* [读我呀](./README.md)
 * [前端知识图谱](docs/knowledge-graph.md)
 * [前端推荐资源](docs/recommend.md)
 
@@ -22,13 +22,13 @@
 * [原型链](js/prototype.md)
 * [计时器](js/timer.md)
 * [ES6+ 入门](js/eslatest.md)
-  * [Promise](js/promise.md)
-  * [Generator](js/generator.md)
-  * [Async](js/async.md)
+  * [Promise](js/eslatest.md#promise)
+  * [Generator](js/eslatest.md#generator)
+  * [Async](js/eslatest.md#async)
 * [常用设计模式](js/design-patterns.md)
 * [常用编程范式](js/paradigm.md)
-  * [函数式编程](js/functional.md)
-  * [响应式编程](js/rp.md)
+  * [函数式编程](js/paradigm.md#函数式编程)
+  * [响应式编程](js/paradigm.md#响应式编程)
 
 ### 前端现代化
 
@@ -38,8 +38,8 @@
 * [事件代理](modernize/vent-delegation.md)
 * [跨域解决方案](modernize/cross-domain.md)
 * [前端工程化自动化工具](modernize/tools.md)
-  * [Webpack](modernize/tools.md#Webpack)
-  * [Gulp](modernize/tools.md#Gulp)
+  * [Webpack](modernize/tools.md#webpack)
+  * [Gulp](modernize/tools.md#gulp)
 * [koa](modernize/koa.md)
 * [RESTful API](modernize/restful.md)
 * [SEO](modernize/seo.md)

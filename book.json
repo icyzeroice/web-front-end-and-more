@@ -5,9 +5,14 @@
     "3-ba",
     "katex",
     "mermaid-gb3",
-    "new-flowchart"
+    "new-flowchart",
+    "theme-comscore",
+    "anchors"
   ],
   "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    },
     "3-ba": {
       "token": "0ddc2686874845c1dbe5b935a3410dc6"
     }
