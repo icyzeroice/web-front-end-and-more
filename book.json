@@ -2,6 +2,9 @@
   "title": "Web Front End and More",
   "author": "Ice Zero",
   "plugins": [
+    "-lunr",
+    "-search",
+    "search-plus",
     "3-ba",
     "katex",
     "mermaid-gb3",
