@@ -1,6 +1,6 @@
 # JavaScript 学习笔记 —— 原型链
 
-> **[warning] WARNING:**
+> **[warning] For warning**
 >
 > 未完成，下面为胡言乱语：
 
