@@ -10,7 +10,8 @@
     "mermaid-gb3",
     "new-flowchart",
     "theme-comscore",
-    "anchors"
+    "anchors",
+    "alerts"
   ],
   "pluginsConfig": {
     "theme-default": {

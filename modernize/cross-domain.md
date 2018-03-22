@@ -43,3 +43,8 @@ const server = http.createServer((req, res) => {
 ```
 
 ### CORS
+
+
+### 参考
+
+- [常见跨域解决方案](https://www.cnblogs.com/roam/p/7520433.html)
