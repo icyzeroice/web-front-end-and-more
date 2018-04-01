@@ -40,6 +40,7 @@ Bits and pieces of knowledge points about the web front end, and perhaps more th
 * [闭包](js/closure.md)
 * [this](js/this.md)
 * [原型链](js/prototype.md)
+* [浅拷贝与深拷贝](js/clone.md)
 * [计时器](js/timer.md)
 * [ES6+ 入门](js/eslatest.md)
   * [Promise](js/eslatest.md#promise)
