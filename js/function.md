@@ -12,7 +12,8 @@ JSON.toString(target); // '[object JSON]'
 JSON.valueOf(target); // JSON {Symbol(Symbol.toStringTag): "JSON", parse: function, stringify: function}
 JSON.toLocaleString(target); // '[object JSON]'
 
-
+new Date().toString();       // Thu Apr 05 2017 15:49:58 GMT+0800 (HKT)
+new Date().toLocaleString(); // 2017/4/5 下午3:49:58
 ```
 
 ### call & apply & bind

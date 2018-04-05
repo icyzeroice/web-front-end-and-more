@@ -6,7 +6,7 @@
 
 ### 深克隆
 
-* JSON.parse()
+* JSON.stringfy() + JSON.parse()
 
 * 递归
 
