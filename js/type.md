@@ -117,3 +117,4 @@ typeof document.all  // "undefined"
 [^1]: 4.9.1-相等和不等运算符 "《JavaScript 权威指南（第6版）》"
 
 [^2]: https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Data_structures "JavaScript 数据类型和数据结构"
+[^3]: http://es-discourse.com/t/why-typeof-is-no-longer-safe/15 "Why `typeof` is no longer ''safe''?"

@@ -33,22 +33,21 @@
 
 ### 前端现代化
 
-* [直接操作 DOM](modernize/dom.md)
-* [双向绑定](modernize/data-bind.md)
-* [Virtual DOM](modernize/virtual-dom.md)
-* [事件代理](modernize/vent-delegation.md)
+* [现代前端库与框架](./modernize/library-and-frame.md)
+
 * [跨域解决方案](modernize/cross-domain.md)
 * [前端工程化自动化工具](modernize/tools.md)
   * [Webpack](modernize/tools.md#webpack)
   * [Gulp](modernize/tools.md#gulp)
-* [koa](modernize/koa.md)
 * [RESTful API](modernize/restful.md)
 * [SEO](modernize/seo.md)
 
 ### 其他
 
 * [XML](others/xml.md)
+* [YAML](./others/yaml.md)
 * [HTTP](others/http.md)
-* [前端持久化技术](others/cache.md)
+* [浏览器兼容性](./others/compatibility.md)
+* [前端持久化](others/cache.md)
 * [浏览器](others/browser.md)
 * [面试题](others/interview.md)

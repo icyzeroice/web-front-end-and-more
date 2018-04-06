@@ -27,7 +27,7 @@ graph TB;
 class IcyObserver {
   constructor() {
 
-    // event line
+    // events line
     this._store = {};
   }
 
