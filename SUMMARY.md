@@ -11,6 +11,7 @@
 * [Shadow HTML](html+css/shadow-html.md)
 * [CSS 的正交性](html+css/cross-css.md)
 * [布局](html+css/layout.md)
+* [BFC](html+css/bfc.md)
 
 ### JavaScript 基础概念
 
@@ -36,6 +37,7 @@
 * [现代前端库与框架](./modernize/library-and-frame.md)
 
 * [跨域解决方案](modernize/cross-domain.md)
+* [Web 前端安全](modernize/security.md)
 * [前端工程化自动化工具](modernize/tools.md)
   * [Webpack](modernize/tools.md#webpack)
   * [Gulp](modernize/tools.md#gulp)

@@ -1,4 +1,4 @@
-# 兼容性
+# 浏览器兼容性
 
 ### document.getElementById()
 

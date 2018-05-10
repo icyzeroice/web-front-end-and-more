@@ -42,7 +42,19 @@ const server = http.createServer((req, res) => {
 }).listen(80);
 ```
 
+> JSONP 缺点：
+>  * 只支持 HTTP GET 请求方式
+>  * 数据全部放在 URL 上，想给后端传递数据时较为麻烦，且有限
+>  * 有安全风险，可能会形成 XSS 漏洞
+
+
 ### CORS
+
+
+### window.name
+
+### window.postMessage()
+
 
 
 ### 参考

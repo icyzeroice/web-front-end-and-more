@@ -35,7 +35,6 @@
 
 * 接着就需要一些实战练习，在练习中翻看 HTML 和 CSS 手册积累这些标签、属性和实践经验。重点先放在学习 JavaScript 这门语言上，然后弄清 **浏览器对象模型** (BOM $$\supset$$ DOM)。
 
-
 ##### 手册
 
 - [MDN](https://developer.mozilla.org/zh-CN/) (合并了微软 MDSN Web、W3C 等文档，已经是非常强了)
@@ -53,8 +52,11 @@
 - [Airbnb - JavaScript](https://github.com/airbnb/javascript)
 - [Baidu - Style Guide](https://github.com/fex-team/styleguide)
 
-
 ### 进阶推荐
+
+- [npm-official](https://docs.npmjs.com/getting-started/what-is-npm)
+
+- [npm-中文教程](https://www.runoob.com/nodejs/nodejs-npm.html)
 
 ##### 优先
 
@@ -136,6 +138,10 @@
 - [Node.js 中文文档](http://nodejs.cn/api/)
 
 - [《Node.js 深入浅出》](https://book.douban.com/subject/25768396/)
+
+如果觉得官方文档有点乱，不知道 Node.js 的应用从何下手，可以看看这本全是小 Demo 的书：
+
+- [Node.js 硬实战 - 115个核心技巧](https://book.douban.com/subject/26937390/)
 
 
 ### Web 前端安全
