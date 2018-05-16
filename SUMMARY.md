@@ -46,8 +46,9 @@
 
 ### 其他
 
+* [前端开发常用](others/editors.md)
 * [XML](others/xml.md)
-* [YAML](./others/yaml.md)
+* [YAML](others/yaml.md)
 * [HTTP](others/http.md)
 * [浏览器兼容性](./others/compatibility.md)
 * [前端持久化](others/cache.md)
