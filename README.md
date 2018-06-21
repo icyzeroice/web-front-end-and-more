@@ -47,6 +47,7 @@ Bits and pieces of knowledge points about the web front end, and perhaps more th
   * [Promise](js/eslatest.md#promise)
   * [Generator](js/eslatest.md#generator)
   * [Async](js/eslatest.md#async)
+* [JS 编程小技巧](js/js-tricks.md)
 * [常用设计模式](js/design-patterns.md)
 * [常用编程范式](js/paradigm.md)
   * [函数式编程](js/paradigm.md#函数式编程)
@@ -55,7 +56,6 @@ Bits and pieces of knowledge points about the web front end, and perhaps more th
 ### 前端现代化
 
 * [现代前端库与框架](./modernize/library-and-frame.md)
-
 * [跨域解决方案](modernize/cross-domain.md)
 * [Web 前端安全](modernize/security.md)
 * [前端工程化自动化工具](modernize/tools.md)
@@ -69,6 +69,7 @@ Bits and pieces of knowledge points about the web front end, and perhaps more th
 * [前端开发常用](others/editors.md)
 * [XML](others/xml.md)
 * [YAML](others/yaml.md)
+* [TOML](others/toml.md)
 * [HTTP](others/http.md)
 * [浏览器兼容性](./others/compatibility.md)
 * [前端持久化](others/cache.md)

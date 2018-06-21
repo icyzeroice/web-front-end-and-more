@@ -21,7 +21,7 @@ function miniLine() {
 
 * Example 2
 
-```
+```js
 var a = {
   b: function () {
     console.log(this)
