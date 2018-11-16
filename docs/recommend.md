@@ -22,30 +22,32 @@
 
 - [JavaScript 入门教程](http://www.runoob.com/js/js-tutorial.html)
 
-- [JQuery 入门教程](http://www.runoob.com/jquery/jquery-tutorial.html)
+- [JQuery 入门教程](http://www.runoob.com/jquery/jquery-tutorial.html)（现在已经不推荐使用 jQuery 了，可以不学，但是建议有时间一定要看看 jQuery 的封装技巧）
 
 - [《JavaScript 高级程序设计》](https://book.douban.com/subject/10546125/)（红宝书）[PDF](http://note.youdao.com/noteshare?id=7ce6a29ea631d4ec477c64ba1b0ddcbe)
 
 - [《JavaScript 权威指南》](https://book.douban.com/subject/10549733/)（犀牛书）[PDF](http://note.youdao.com/noteshare?id=4a0fe0dd3a60161f9f2da8edbe00c4df)
 
 
-* HTML 和 CSS 迅速过一遍，主要先理解概念和他们的在前端的作用
+HTML 和 CSS 迅速过一遍，主要先理解概念和他们的在前端的作用，记一下常用的标签和属性等等，重点关注下盒子模型、BFC、几种常见的布局方式等概念。
 
-* 然后上面这两本书先选一本看就行了（这两本书当前最新版本主要讲 ES5 语法，更贴近 JS 语言本质，建议优先学习）
+然后上面这两本书先选一本看就行了（这两本书当前最新版本主要讲 ES5 语法，更贴近 JS 语言本质，建议优先学习，尤其原型链、作用域链、this 的作用、几种常见的继承方式等概念，面试常问）
 
-* 接着就需要一些实战练习，在练习中翻看 HTML 和 CSS 手册积累这些标签、属性和实践经验。重点先放在学习 JavaScript 这门语言上，然后弄清 **浏览器对象模型** (BOM $$\supset$$ DOM)。
+接着就需要一些实战练习，在练习中翻看 HTML 和 CSS 手册积累这些标签、属性和实践经验。重点先放在学习 JavaScript 这门语言上，然后弄清 **浏览器对象模型** (BOM $$\supset$$ DOM)。然后 HTTP 协议、前端安全也都属于基础中的基础，一定要知道。后面再去学习、深入 React / Vue 中的一个框架，弄懂原理。
 
 ##### 手册
 
-- [MDN](https://developer.mozilla.org/zh-CN/) (合并了微软 MDSN Web、W3C 等文档，已经是非常强了)
+- [MDN](https://developer.mozilla.org/zh-CN/)(合并了微软 MDSN Web、W3C 等文档，日常手册首选)
 
-- [W3C](https://www.w3.org) (可以看新闻，逃 ...)
+- [Can I use ...](https://caniuse.com/#home)（查看浏览器 **特性** 必备的网站）
+
+- [W3C](https://www.w3.org)(可以看新闻，逃 ...)
 
 - [CSS TRICKS](https://css-tricks.com/almanac/)
 
-- [Can I use ...](https://caniuse.com/#home)（查看浏览器 **特性** 的网站）
-
 ##### 代码风格参考
+
+> 规范和风格一致的代码很重要！选一个你喜欢的参考就好。
 
 - [Google - HTML/JavaScript](https://iischajn.github.io/trans/htmlcss-guide/#HTML_Formatting_Rules)
 - [Airbnb - CSS](https://github.com/airbnb/css)
@@ -82,6 +84,22 @@
 
 ### 现代前端框架
 
+##### MV* 框架
+
+- [Angular](https://angular.io)
+
+- [React](https://reactjs.org/)
+  - 状态管理机制较弱，一般配合 [React Router]() 和 [Redux]()
+  - 开箱即用 [create-react-app](https://github.com/facebookincubator/create-react-app)
+  - 想深入 React 但不知道从何下手，可以先看看这本书：[《深入 React 技术栈》](https://book.douban.com/subject/26918038/)
+
+- [Vue](https://cn.vuejs.org/index.html) 
+  - 同上配合 [Vue Router]() 和 [Vuex]()
+  - 开箱即用 [vue-cli](https://github.com/vuejs/vue-cli)
+
+- [Aurelia](http://aurelia.io/)
+
+
 ##### UI 库
 
 - [Ant Design](https://ant.design/index-cn)
@@ -91,20 +109,6 @@
 - [Materialize](http://materializecss.com/)
 
 - [Bootstrap](https://v4.bootcss.com/)
-
-##### MV* 框架
-
-- [Angular](https://angular.io)
-
-- [React](https://reactjs.org/) 
-  - 状态管理机制较弱，一般配合 [React Router]() 和 [Redux]()
-  - 开箱即用 [create-react-app](https://github.com/facebookincubator/create-react-app)
-
-- [Vue](https://cn.vuejs.org/index.html) 
-  - 同上配合 [Vue Router]() 和 [Vuex]()
-  - 开箱即用 [vue-cli](https://github.com/vuejs/vue-cli)
-
-- [Aurelia](http://aurelia.io/)
 
 
 ##### 开发移动应用或桌面应用
@@ -139,23 +143,26 @@
 
 - [《Node.js 深入浅出》](https://book.douban.com/subject/25768396/)
 
-如果觉得官方文档有点乱，不知道 Node.js 的应用从何下手，可以看看这本全是小 Demo 的书：
+如果觉得官方文档有点乱，不知道 Node.js 的应用从何下手，可以看看这本全是小 Demo 的书，跟着练习：
 
-- [Node.js 硬实战 - 115个核心技巧](https://book.douban.com/subject/26937390/)
+- [《Node.js 硬实战 - 115个核心技巧》](https://book.douban.com/subject/26937390/)
 
 
 ### Web 前端安全
+
+- 面试主要搞懂 XSS 和 CSRF
 
 - [《Web 前端黑客技术揭秘》](https://book.douban.com/subject/20451827/)
 
 - [《白帽子讲 Web 安全》](https://book.douban.com/subject/25910557/)
 
 
-### Web 图形学
+### Web 图形
+
+- [《HTML5 Canvas 核心技术》](https://book.douban.com/subject/24533314/)
 
 - [《WebGL 编程指南》](https://book.douban.com/subject/25909351/)
 
-- [《HTML5 Canvas 核心技术》](https://book.douban.com/subject/24533314/)
 
 | 图像处理库 | |
 |:--:|:--:|
@@ -163,9 +170,10 @@
 | [glfx.js](http://evanw.github.io/glfx.js/) | 不再维护 |
 | [AlloyPhoto](http://alloyteam.github.io/AlloyPhoto/) | 不再维护 |
 
-| 3D、VR、AR 库推荐 | |
-|:--:| |
+| 2D、3D、VR、AR 库推荐 | |
+|:--:|:--:|
 | [three](https://threejs.org/) | |
+| [pixijs](http://www.pixijs.com/) | |
 | [AR.js](https://github.com/jeromeetienne/AR.js) | |
 | [Aframe](https://github.com/aframevr/aframe) | Mozilla 社区出品，必属精品 |
 | [react-vr](https://github.com/facebook/react-vr) | |
@@ -174,7 +182,7 @@
 ### Web AI 库
 
 |  | |
-|--| |
+|:--:|:--:|
 | [tracking.js](https://trackingjs.com/) | |
 | [regl-cnn](https://erkaman.github.io/regl-cnn/src/demo.html) | |
 | [deeplearn.js](https://deeplearnjs.org/) | |
@@ -187,10 +195,10 @@
 ### 前端数据可视化
 
 |  |  |
-|--|--|
+|:--:|:--:|
 | [Echarts](http://echarts.baidu.com/) | 百度出品 |
 | [D3](https://www.google.com.hk/search?q=d3) | |
-| [Antv](https://antv.alipay.com/index.html) | |
+| [Antv](https://antv.alipay.com/index.html) | 阿里出牌 |
 | [Processing.js](http://processingjs.org/) | Processing 的 JavaScript 实现 |
 
 
@@ -210,7 +218,7 @@
 
 - [《计算机网络：自顶向下方法》](https://book.douban.com/subject/26176870/)
 
-- [《Webkit 技术内幕》](https://book.douban.com/subject/25910556/)
+- [《Webkit 技术内幕》](https://book.douban.com/subject/25910556/)（这本书里有讲页面渲染、浏览器缓存机制、js 引擎机制等等内容，强推）
 
 
 ### 前端知识图谱个人总结
